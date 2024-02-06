@@ -1,0 +1,39 @@
+h1::first-letter{
+    color: black;
+    font-weight: 100;
+    font-size: 150px;
+
+
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+*{
+    background-color: lightblue;
+}
+nav{
+    text-align: center;
+}
+a.nav:hover{
+    color: red;
+    background-color: yellow;
+}
+p.first::first-line{
+ color: red;
+}
+a.enlaces:link{
+    color: white;
+    background-color: blue;
+}
+a.enlaces:visited{
+    color: blue;
+    background-color: white;
+}
+h2{
+    counter-reset: contador-productos
+}
+p.contador::before{
+    counter-increment: contador-productos 1;
+    content: counter(contador-productos) ". ";
+}
