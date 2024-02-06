@@ -37,3 +37,9 @@ p.contador::before{
     counter-increment: contador-productos 1;
     content: counter(contador-productos) ". ";
 }
+img{
+    position: relative;
+    right: -80%;
+    top: -400px;
+    width: 300px;
+}
